@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".EraserActivity">
+
+    <ImageView
+        android:id="@+id/result"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#e0e0e0" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:scaleType="centerCrop"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_transform" />
+
+    <ImageView
+        android:id="@+id/target"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/human" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:onClick="eraseBackground"
+        android:text="Erase Background"
+        android:textColor="@color/black" />
+
+</LinearLayout>
