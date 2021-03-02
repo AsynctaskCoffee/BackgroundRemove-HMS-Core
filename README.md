@@ -47,3 +47,4 @@ companion object {
 ```
 
 
+## Reference [HMS-Core Image Segmentation](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/image-segmentation-0000001050040109)
