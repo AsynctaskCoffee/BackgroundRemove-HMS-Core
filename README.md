@@ -2,7 +2,7 @@
 BackgroundErase with image-segmentation model HMS Core
 
 
-![Preview](/previews/img1.png)   ![Preview](/previews/img2.gif)
+![Preview](/previews/img1.jpeg)   ![Preview](/previews/img2.jpeg)
 
 
 ### Methods
