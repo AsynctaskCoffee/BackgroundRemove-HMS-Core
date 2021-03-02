@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BackgroundRemove</string>
+    <string name="image_to_fill_background">dec</string>
+</resources>
