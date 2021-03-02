@@ -40,6 +40,8 @@ class Eraser {
 }
 
 interface EraserListener {
+    fun onStartProcess()
+    fun onEndProcess()
     fun onResultReady(bitmap: Bitmap?)
     fun onError(exception: Exception?)
 }

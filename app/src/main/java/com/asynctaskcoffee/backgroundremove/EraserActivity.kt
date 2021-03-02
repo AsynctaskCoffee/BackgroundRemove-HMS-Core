@@ -36,6 +36,14 @@ class EraserActivity : AppCompatActivity(), EraserListener {
         result = findViewById(R.id.result)
     }
 
+    override fun onStartProcess() {
+
+    }
+
+    override fun onEndProcess() {
+
+    }
+
     override fun onResultReady(bitmap: Bitmap?) {
         result.setImageBitmap(bitmap)
     }
