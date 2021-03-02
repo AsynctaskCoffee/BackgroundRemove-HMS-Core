@@ -26,7 +26,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="10dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/human" />
+        android:src="@drawable/human_three" />
 
     <Button
         android:layout_width="wrap_content"

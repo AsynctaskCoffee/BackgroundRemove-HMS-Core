@@ -1,9 +1,7 @@
 package com.asynctaskcoffee.backgroundremove
 
-import android.annotation.SuppressLint
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import android.graphics.drawable.BitmapDrawable
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
@@ -24,7 +22,7 @@ class EraserActivity : AppCompatActivity(), EraserListener {
     private fun erase() {
         val bitmapInput = BitmapFactory.decodeResource(
             resources,
-            R.drawable.human
+            R.drawable.human_three
         )
         Eraser.eraseAndReturnResult(
             bitmapInput,
