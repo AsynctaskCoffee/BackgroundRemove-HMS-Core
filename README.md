@@ -2,7 +2,7 @@
 BackgroundErase with image-segmentation model HMS Core
 
 
-![Preview](/previews/img1.jpeg)   ![Preview](/previews/img2.jpeg)
+<img src = "previews/img1.jpeg" width ="300" /> <img src = "previews/img2.jpeg" width ="300" />
 
 
 ### Methods
