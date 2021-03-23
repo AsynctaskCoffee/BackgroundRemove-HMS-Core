@@ -15,9 +15,9 @@
 
     <ImageView
         android:layout_width="35dp"
-        android:scaleType="centerCrop"
         android:layout_height="35dp"
         android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/ic_transform" />
 
     <ImageView
@@ -37,5 +37,17 @@
         android:onClick="eraseBackground"
         android:text="Erase Background"
         android:textColor="@color/black" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:onClick="selectImage"
+        android:text="Select and Erase"
+        android:textColor="@color/black" />
+
 
 </LinearLayout>
