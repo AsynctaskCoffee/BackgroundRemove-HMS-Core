@@ -2,7 +2,7 @@
 BackgroundErase with image-segmentation model HMS Core
 
 
-![Preview](/previews/img1.png)   ![Preview](/previews/img2.gif)
+<img src = "previews/img1.jpeg" width ="300" /> <img src = "previews/img2.jpeg" width ="300" />
 
 
 ### Methods
@@ -47,3 +47,4 @@ companion object {
 ```
 
 
+## Reference [HMS-Core Image Segmentation](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/image-segmentation-0000001050040109)
